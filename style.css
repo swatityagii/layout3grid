@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .navlinks {
+    background-color: black;
+    color: grey;
+    padding-top: 2.1vh;
+    padding-bottom: 2.1vh;
+    padding-left: 7.5vw;
+    gap: 2vw;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    align-items: center;
+  }
+  .nav,
+  .heading,
+  .biglorem {
+    opacity: 0.9;
+  }
+  .layout {
+    font-size: 20px;
+  }
+  img {
+    width: 100%;
+  }
+  .main {
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    margin-top: 32px;
+  }
+  .sections {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2vw;
+  }
+  .blogsearch {
+    border: 1.8px solid rgb(231, 231, 233);
+    padding: 29px 1.5vw 18px 1.5vw;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+  }
+  .blogcategories,
+  .sidewidgetwell {
+    border: 1.8px solid rgb(231, 231, 233);
+    padding: 29px 0 30px 1.5vw;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+  }
+  .categoryname {
+    display: grid;
+    grid-template-columns: max-content auto;
+  }
+  .categoryname2 {
+    margin: auto;
+  }
+  .searchbar {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    border-radius: 3px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  input {
+    width: 100%;
+    border-left: 1.8px solid rgb(231, 231, 233);
+    border-right: none;
+    border-top: 1.8px solid rgb(231, 231, 233);
+    border-bottom: 1.8px solid rgb(231, 231, 233);
+    border-radius: 3px 0 0 3px;
+  }
+  button {
+    border: 1.8px solid rgb(231, 231, 233);
+    background-color: white;
+    border-radius: 0 3px 3px 0;
+  }
+  .hr1 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+  hr {
+    border-top: 1.2px solid rgb(231, 231, 233);
+    opacity: 0.5;
+  }
+  .hr3 {
+    margin-top: 22px;
+  }
+  .copyright {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .test,
+  .categoryname1,
+  .categoryname2 {
+    color: #428bca;
+  }
+  .bytest {
+    margin-top: 7px;
+  }
+  h2 {
+    margin-bottom: 8px;
+  }
+  .postdate,
+  .loremsection1,
+  .categoryname1,
+  .categoryname2,
+  .loremsection2,
+  .copyright {
+    opacity: 0.8;
+  }
+  .loremsectionA,
+  .loremsectionB,
+  .loremsectionC {
+    margin-bottom: 12px;
+  }
+  
+  @media only screen and (min-width: 1801px) and (max-width: 2560px) {
+    .layout {
+      font-size: 34px;
+    }
+    .navlink {
+      font-size: 26.5px;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 53px;
+    }
+    .bytest {
+      font-weight: 500;
+      font-size: 25px;
+    }
+    .postdate,
+    .loremsection1,
+    .loremsection2,
+    .copyright {
+      font-size: 20px;
+    }
+    .categoryname1,
+    .categoryname2 {
+      font-size: 19px;
+    }
+    .biglorem {
+      font-size: 27px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .blogsearch {
+      padding: 33px 1.5vw 22px 1.5vw;
+    }
+    .blogcategories {
+      padding: 33px 0 34px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 33px 1.5vw 34px 1.5vw;
+    }
+    button {
+      padding: 12px 0 12px 0;
+    }
+  }
+  @media only screen and (min-width: 1405px) and (max-width: 1800px) {
+    .layout {
+      font-size: 22px;
+    }
+    .navlink {
+      font-size: 18.5px;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 38px;
+    }
+    .bytest {
+      font-weight: 400;
+      font-size: 23px;
+    }
+    .postdate,
+    .loremsection1,
+    .loremsection2,
+    .copyright {
+      font-size: 16px;
+    }
+    .categoryname1,
+    .categoryname2 {
+      font-size: 15px;
+    }
+    .biglorem {
+      font-size: 22px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 21px;
+      font-weight: 500;
+    }
+    .blogsearch {
+      padding: 25px 1.5vw 12px 1.5vw;
+    }
+    .blogcategories {
+      padding: 25px 0 26px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 25px 1.5vw 26px 1.5vw;
+    }
+    button {
+      padding: 8px 0 8px 0;
+    }
+  }
+  @media only screen and (min-width: 1023px) and (max-width: 1404px) {
+    .layout {
+      font-size: 17px;
+    }
+    .navlink {
+      font-size: 13.5px;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 33px;
+    }
+    .bytest {
+      font-weight: 400;
+      font-size: 19px;
+    }
+    .postdate,
+    .loremsection1,
+    .loremsection2,
+    .copyright {
+      font-size: 14px;
+    }
+    .categoryname1,
+    .categoryname2 {
+      font-size: 13px;
+    }
+    .biglorem {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .blogsearch {
+      padding: 21px 1.5vw 11px 1.5vw;
+    }
+    .blogcategories {
+      padding: 21px 0 22px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 21px 1.5vw 22px 1.5vw;
+    }
+    .clockicon {
+      font-size: 14px;
+    }
+    button {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+  @media only screen and (min-width: 781px) and (max-width: 1022px) {
+    .layout {
+      font-size: 16px;
+    }
+    .navlink {
+      font-size: 12.5px;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 28px;
+    }
+    .bytest {
+      font-weight: 400;
+      font-size: 15px;
+    }
+    .postdate,
+    .loremsection1,
+    .loremsection2,
+    .copyright {
+      font-size: 13px;
+    }
+    .categoryname1,
+    .categoryname2 {
+      font-size: 11px;
+    }
+    .biglorem {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .categoryname2 {
+      margin: auto;
+    }
+    .blogsearch {
+      padding: 15px 1.5vw 12px 1.5vw;
+    }
+    .blogcategories {
+      padding: 15px 0 16px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 15px 1.5vw 16px 1.5vw;
+    }
+    .clockicon {
+      font-size: 12px;
+    }
+    button {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+  }
+  @media only screen and (min-width: 651px) and (max-width: 780px) {
+    .layout {
+      font-size: 14px;
+    }
+    .navlink {
+      font-size: 11px;
+    }
+    .navlinks {
+      gap: 2.5vw;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 25px;
+    }
+    .bytest {
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .postdate,
+    .loremsection1,
+    .loremsection2,
+    .copyright {
+      font-size: 10px;
+    }
+    .categoryname1,
+    .categoryname2 {
+      font-size: 8px;
+    }
+    .biglorem {
+      font-size: 13px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .blogsearch {
+      padding: 10px 1.5vw 7px 1.5vw;
+    }
+    .blogcategories,
+    .sidewidgetwell {
+      padding: 10px 0 9px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 10px 1.5vw 9px 1.5vw;
+    }
+    .copyright {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .hr3 {
+      margin-top: 20px;
+    }
+    .clockicon {
+      font-size: 10px;
+    }
+    button {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .layout {
+      font-size: 15px;
+    }
+    .navlink {
+      font-size: 12.5px;
+    }
+    .navlinks {
+      display: block;
+      text-align: center;
+      padding-left: 0;
+    }
+    .layout,
+    .navlink1,
+    .navlink2 {
+      margin-bottom: 8px;
+    }
+    .heading {
+      font-weight: 500;
+      font-size: 25px;
+    }
+    .bytest {
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .postdate,
+    .loremsection1,
+    .categoryname1,
+    .categoryname2,
+    .loremsection2,
+    .copyright {
+      font-size: 9px;
+    }
+    .biglorem {
+      font-size: 13px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .sections {
+      display: block;
+    }
+    .section1,
+    .section2 {
+      width: 100%;
+    }
+    .blogsearch {
+      margin-top: 20px;
+    }
+    .copyright {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .hr3 {
+      margin-top: 10px;
+    }
+    .hr1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .blogsearch {
+      padding: 10px 1.5vw 7px 1.5vw;
+    }
+    .blogcategories,
+    .sidewidgetwell {
+      padding: 10px 0 9px 1.5vw;
+    }
+    .sidewidgetwell {
+      padding: 10px 1.5vw 9px 1.5vw;
+    }
+    .clockicon {
+      font-size: 10px;
+    }
+    button {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+  
